@@ -31,7 +31,7 @@ class Flattr extends Plugin {
                        title='".__('Flattr this article.')."'>";
         // if Flattr has it in the catalogue, we display the button
         if ($response and array_key_exists('link', $response)) {
-            $rv = "<a id='flattr' target='_blank' href='" . $response['link'] . "'> . $image . </a>";
+            $rv = "<a id='flattr' target='_blank' href='" . $response['link'] . "'>$image</a>";
         } else {
             // We can't submit a thing to the catalogue without giving a Flattr user id (who would be the owner)
             // see http://developers.flattr.net/auto-submit
