@@ -17,6 +17,10 @@ class Flattr extends Plugin {
                         "https://github.com/nhoening/ttrss-flattr");
 	}
 
+	function api_version() {
+		return 2;
+	}
+
   function hook_article_button($line) {
 
     $rv = "";
