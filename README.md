@@ -3,7 +3,7 @@ ttrss-flattr
 
 Plugin for the RSS reader Tiny Tiny RSS to flattr articles.
 
-Copy this directory into the plugins folder of your tt-rss instance. Then, you can activate it in the settings panel of tt-rss.
+Copy this directory into the plugins folder of your tt-rss instance. Then, you can activate it in the settings panel of tt-rss. Some people report that the folder should be named 'flattr' in order to show up in the settings panel.
 
 Currently, the plugin checks the Flattr catalogue and only displays the button if the article exists as a thing there (see more comments in the code). Two things to note about that:
 
